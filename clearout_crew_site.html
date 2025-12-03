@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ClearOut Crew - Fast, Reliable Junk Removal & Demolition Services. Residential, commercial, and construction debris removal.">
+  <title>ClearOut Crew | Junk Removal & Demolition</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Roboto', sans-serif; margin:0; padding:0; line-height:1.6; color:#333; }
+    header { background:#2C7A7B; color:#fff; padding:20px 0; text-align:center; }
+    header h1 { margin:0; font-size:2.5em; }
+    nav a { color:#fff; margin:0 15px; text-decoration:none; font-weight:700; }
+    .hero { background:#319795 url('https://images.unsplash.com/photo-1603415526960-f0bce233ff0b?auto=format&fit=crop&w=1650&q=80') center/cover no-repeat; color:#fff; text-align:center; padding:100px 20px; }
+    .hero h2 { font-size:2em; margin-bottom:20px; }
+    .cta-button { background:#E53E3E; color:#fff; padding:15px 25px; text-decoration:none; font-weight:bold; border-radius:5px; }
+    section { padding:60px 20px; max-width:1200px; margin:0 auto; }
+    .services, .why-choose, .contact-form { display:flex; flex-wrap:wrap; justify-content:space-between; gap:20px; }
+    .service-item, .why-item { flex:1 1 300px; background:#f7f7f7; padding:20px; border-radius:8px; }
+    footer { background:#2C7A7B; color:#fff; text-align:center; padding:20px 0; }
+    input, textarea, select, button { width:100%; padding:10px; margin-bottom:15px; border-radius:5px; border:1px solid #ccc; }
+    button { background:#E53E3E; color:#fff; border:none; cursor:pointer; font-weight:bold; }
+    button:hover { background:#C53030; }
+    @media (max-width:768px) { .services, .why-choose { flex-direction:column; } }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ClearOut Crew</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Fast, Reliable Junk Removal & Demolition Services!</h2>
+    <p>No job too big or small. We haul, clear, and demolish with speed and care.</p>
+    <a href="#contact" class="cta-button">Get a Free Quote</a>
+  </section>
+
+  <section id="services">
+    <h2 style="text-align:center; margin-bottom:40px;">Our Services</h2>
+    <div class="services">
+      <div class="service-item">
+        <h3>Junk Removal</h3>
+        <p>We haul away furniture, appliances, yard debris, and more. Fast, safe, and eco-friendly.</p>
+      </div>
+      <div class="service-item">
+        <h3>Small-Scale Demolition</h3>
+        <p>Sheds, decks, fences – we take them down safely and efficiently with our equipped team.</p>
+      </div>
+      <div class="service-item">
+        <h3>Construction Debris Hauling</h3>
+        <p>Clear your construction site quickly with our dump trailers and student-powered crews.</p>
+      </div>
+      <div class="service-item">
+        <h3>Cleanouts</h3>
+        <p>Basements, garages, and attics – we remove clutter and leave your space clean and organized.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2 style="text-align:center; margin-bottom:40px;">Pricing</h2>
+    <div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
+      <div style="flex:1 1 250px; background:#f7f7f7; padding:20px; border-radius:8px;">
+        <h3>Junk Removal</h3>
+        <p>Starting at $120 per load</p>
+      </div>
+      <div style="flex:1 1 250px; background:#f7f7f7; padding:20px; border-radius:8px;">
+        <h3>Small Demolition</h3>
+        <p>Starting at $150 per project</p>
+      </div>
+      <div style="flex:1 1 250px; background:#f7f7f7; padding:20px; border-radius:8px;">
+        <h3>Appliances/Furniture</h3>
+        <p>$50–$150 each item</p>
+      </div>
+      <div style="flex:1 1 250px; background:#f7f7f7; padding:20px; border-radius:8px;">
+        <h3>Hourly Rate</h3>
+        <p>$60/hr per van + trailer fees if applicable</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 style="text-align:center; margin-bottom:40px;">About Us</h2>
+    <p style="max-width:800px; margin:0 auto; text-align:center;">
+      ClearOut Crew is a mobile, student-powered team providing professional junk removal and small-scale demolition services. We bring our own work vans, dump trailers, and tools to get the job done quickly, safely, and affordably. Perfect for homeowners, landlords, and construction sites.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2 style="text-align:center; margin-bottom:40px;">Contact Us</h2>
+    <form class="contact-form" style="max-width:600px; margin:0 auto;">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="text" name="address" placeholder="Service Address" required>
+      <select name="service" required>
+        <option value="">Select Service</option>
+        <option value="junk-removal">Junk Removal</option>
+        <option value="demolition">Demolition</option>
+        <option value="cleanout">Cleanout</option>
+      </select>
+      <textarea name="message" rows="5" placeholder="Additional Details"></textarea>
+      <button type="submit">Submit Your Request</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ClearOut Crew. All rights reserved.</p>
+    <p>Phone: [Your Number] | Email: [Your Email]</p>
+  </footer>
+
+</body>
+</html>
